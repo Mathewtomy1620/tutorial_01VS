@@ -1,5 +1,9 @@
-import 'package:tutorial_01/tutorial_01.dart' as tutorial_01;
+void main() {
+  String name = "Mathew Tomy";
+  int age = 22;
+  double cgpa = 68.25;
+  var email = "mathewtomy1606@gamil.com";
 
-void main(List<String> arguments) {
-  print('Hello world: ${tutorial_01.calculate()}!');
+  print(
+      "My name is $name and I am $age years old.I have a cgpa of $cgpa and my email ID is $email");
 }
